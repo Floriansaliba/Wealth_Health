@@ -57,7 +57,7 @@ table {
 .title{
   font-size: 3rem;
   font-weight: 500;
-  margin: 20px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   color: brown;
   background-color: cornflowerblue;
   text-align: center;
@@ -71,6 +71,12 @@ table {
   border: solid;
   border-radius: 10px;
   padding: 10px;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: white;
+  background-color: cornflowerblue;
 }
 
 .link:hover{
@@ -115,6 +121,8 @@ table {
   padding: 5px;
 }
 
+
+
 .table-label-ascending{
   font-size: 1rem;
   font-weight: 500;
@@ -128,6 +136,10 @@ table {
   background-image: url(./assets/images/sort-up-solid.svg);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.table-label-ascending:hover{
+  cursor: pointer;
 }
 
 .table-label-descending{
@@ -145,6 +157,10 @@ table {
   background-position: right;
 }
 
+.table-label-descending:hover{
+  cursor: pointer;
+}
+
 .fa-sort-up{
   width: 10px;
   height: 10px;
@@ -160,12 +176,20 @@ table {
   border-radius: 5px;
 }
 
+.input-box:hover{
+  cursor: pointer;
+}
+
 .btn{
   font-size: 1rem;
   color: white;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   background-color: cornflowerblue;
+}
+
+.btn:hover{
+  cursor: pointer;
 }
 
 .views{
